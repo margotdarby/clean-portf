@@ -1,0 +1,109 @@
+/* myStyle.css: misc styles, lytebox mods, responsive @queries */
+
+
+body {
+	background: #f1f1e9;
+}
+h1 {
+	font-family: sans-serif; 
+	font-weight:normal; 
+	font-size:48px; 
+	color: #648293;
+}
+h2 {
+	font-family: sans-serif; 
+	font-weight:normal; 
+	font-size:16px; 
+	color: #648293; 
+}
+
+.nav{
+    border-top:1px solid #ccc;
+    border-bottom:1px solid #ccc;
+    list-style:none;
+    margin:10px;
+    padding:10px;
+    text-align:center;
+}
+.nav li{
+    display:inline;
+}
+.nav a{
+    display:inline-block;
+    padding: 6px 20px;
+    font-family: sans-serif; 
+    font-weight:normal; 
+    font-size:16px; 
+    color: #648293; 
+    text-decoration:none;
+}
+
+
+.gallery {
+	margin:10px auto; 
+	display:block;
+}
+.gallery img {
+	float:left; 
+	margin:1%;
+	box-shadow:2px 2px 3px #aaaaaa;
+}
+
+
+.footer {
+    clear:both;
+ 	float:none
+    width: 100%;
+    border-top: solid 1px #ccc;
+    margin:20px 10px;
+}
+.footer p{
+	font-family:sans-serif; 
+	font-weight:normal; 
+	font-size:16px; 
+	color: #333;
+	text-align:center
+}		
+.footer-nav{
+    list-style:none;
+    margin:10px;
+    padding:10px;
+    text-align:center;
+}
+.footer-nav li{
+    display:inline;
+}
+.footer-nav a{
+    display:inline-block;
+    padding: 6px 20px;
+    font-family: sans-serif; 
+    font-weight:normal; 
+    font-size:16px; 
+    color: #648293; 
+    text-decoration:none;
+}
+
+@media (min-width: 1000px)  {
+body {margin:20px;}
+h1 {text-align:left; margin-left:10px;}
+.nav a{font-size:16px; padding:6px 40px;}
+.gallery {width:1000px; padding:10px;}
+.gallery img {width:23%;}
+}
+
+@media (min-width: 600px) and (max-width: 999px) {
+body {margin:6px;}
+h1 {text-align: center; font-size:40px;}
+.nav a, footer-nav a{font-size:14px; padding: 3px 12px;}
+.gallery {width:600px; padding:20px;}
+.gallery img {width:45%;}
+}
+
+@media (max-width: 599px) {
+body {margin:2px;}
+h1 {text-align: center; font-size:24px;}
+.nav a, footer-nav a{font-size:10px;  padding: 3px 6px;}
+.gallery img {width:100%;}
+}
+
+
