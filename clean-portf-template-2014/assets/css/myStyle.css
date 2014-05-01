@@ -17,6 +17,14 @@ h2 {
 	color: #648293; 
 }
 
+p {
+	font-family: "Myriad Pro", verdana, sans-serif;
+}
+
+.blurb {
+	padding:2px 20px;
+}
+
 .nav{
     border-top:1px solid #ccc;
     border-bottom:1px solid #ccc;
