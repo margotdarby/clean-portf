@@ -42,11 +42,11 @@ body, button, input, select, textarea {
 }
 
 a {
-  color: #e7e7e7;
+  color: #666;
 }
 
 a:visited {
-  color: #fbfbfb;
+  color: #666;
 }
 
 a:hover {

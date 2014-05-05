@@ -24,12 +24,12 @@ function Lytebox(bInitialize, aHttp) {
 	
 	/*** Configure Lytebox ***/
 	
-		this.theme   			= (typeof lyteboxTheme !== 'undefined') && /^(black|grey|red|green|blue|gold|orange)$/i.test(lyteboxTheme) ? lyteboxTheme : 'black'; // themes: black (default), grey, red, green, blue, gold, orange
+		this.theme   			= (typeof lyteboxTheme !== 'undefined') && /^(black|grey|red|green|blue|gold|orange)$/i.test(lyteboxTheme) ? lyteboxTheme : 'grey'; // themes: black (default), grey, red, green, blue, gold, orange
 		this.roundedBorder		= true; 		// controls whether or not the viewer uses rounded corners (false = square corners)
 		this.innerBorder		= true;			// controls whether to show the inner border around image/html content
 		this.outerBorder		= true;			// controls whether to show the outer grey (or theme) border
 		this.resizeSpeed		= 10;			// controls the speed of the image resizing (1=slowest and 10=fastest)
-		this.maxOpacity			= 80;			// higher opacity = darker overlay, lower opacity = lighter overlay
+		this.maxOpacity			= 8;			// higher opacity = darker overlay, lower opacity = lighter overlay
 		this.borderSize			= 12;			// if you adjust the padding in the CSS, you will need to update this variable -- otherwise, leave this alone...
 		this.appendQS			= false;		// if true, will append request_from=lytebox to the QS. Use this with caution as it may cause pages to not render
 		this.fixedPosition		= this.isMobile() ? false : true;	// if true, viewer will remain in a fixed position, otherwise page scrolling will be allowed
@@ -41,7 +41,7 @@ function Lytebox(bInitialize, aHttp) {
 		this.__animateOverlay	= false;		// controls ONLY the overlay (background darkening) effects, and whether or not to fade in/out
 		this.__forceCloseClick 	= false;		// if true, users are forced to click on the "Close" button when viewing content
 		this.__refreshPage		= false;		// force page refresh after closing Lytebox
-		this.__showPrint		= false;		// true to show print button, false to hide
+		this.__showPrint		= true;		// true to show print button, false to hide
 		this.__navType			= 3;			// 1 = "Prev/Next" buttons on top left and left
 												// 2 = "Prev/Next" buttons in navigation bar
 												// 3 = navType_1 + navType_2 (show both)
@@ -65,8 +65,8 @@ function Lytebox(bInitialize, aHttp) {
 	
 	/*** Configure Slideshow Options ***/
 	
-		this.__slideInterval	= 4000;			// change value (milliseconds) to increase/decrease the time between "slides"
-		this.__showNavigation	= false;		// true to display Next/Prev buttons/text during slideshow, false to hide
+		this.__slideInterval	= 1000;			// change value (milliseconds) to increase/decrease the time between "slides"
+		this.__showNavigation	= true;		// true to display Next/Prev buttons/text during slideshow, false to hide
 		this.__showClose		= true;			// true to display the Close button, false to hide
 		this.__showDetails		= true;			// true to display image details (caption, count), false to hide
 		this.__showPlayPause	= true;			// true to display pause/play buttons next to close button, false to hide

@@ -21,13 +21,13 @@
 
 #lbTopContainer, #lbBottomContainer { 
 	font: 0.85em Verdana, Helvetica, sans-serif; background-color: #fff; width: 100%; line-height: 1.4em; font-size: 0.9em;
-	overflow: hidden; margin: 0 auto; padding: 0; position: relative; z-index: 14; display: none;
+	overflow: hidden; margin: 2px auto; padding: 4px; position: relative; z-index: 14; display: none;
 }
 #lbTopContainer { overflow: hidden; margin-top: 5px; }
 #lbTopContainer.black, #lbBottomContainer.black { background-color: #000000; }
 #lbTopContainer.grey, #lbTopContainer.red, #lbTopContainer.green, #lbTopContainer.blue, #lbTopContainer.gold, #lbTopContainer.orange,
 #lbBottomContainer.grey, #lbBottomContainer.red, #lbBottomContainer.green, #lbBottomContainer.blue, #lbBottomContainer.gold, #lbBottomContainer.orange {
-	background-color: #ffffff;
+	background-color: #fbfbfb;
 }
 	
 #lbImage, #lbIframe { border: none; }
