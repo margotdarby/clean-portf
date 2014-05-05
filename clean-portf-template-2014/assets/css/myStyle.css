@@ -5,22 +5,26 @@ body {
 	background: #f1f1e9;
 }
 h1 {
-	font-family: sans-serif; 
+	font-family: futura, "gill sans", verdana, sans-serif; 
 	font-weight:normal; 
-	font-size:48px; 
-	line-height:50px;
+	font-size:60px; 
+	line-height:62px;
 	color: #648293;
 }
 h2 {
 	font-family: sans-serif; 
 	font-weight:normal; 
-	font-size:16px; 
-	line-height:18px;
+	font-size:30px; 
+	line-height:32px;
 	color: #648293; 
 }
 
 p {
 	font-family: "Myriad Pro", verdana, sans-serif;
+	font-weight:normal; 
+	font-size:16px; 
+	line-height:19px;
+	color: #333; 
 }
 
 .blurb {
@@ -41,9 +45,9 @@ p {
 .nav a{
     display:inline-block;
     padding: 6px 20px;
-    font-family: sans-serif; 
+    font-family: "Myriad Pro", verdana, sans-serif; 
     font-weight:normal; 
-    font-size:16px; 
+    font-size:20px; 
     color: #648293; 
     text-decoration:none;
 }
@@ -55,7 +59,7 @@ p {
 }
 .gallery img {
 	float:left; 
-	margin:1%;
+	margin:2% 1%;
 	box-shadow:2px 2px 3px #aaaaaa;
 }
 
@@ -96,7 +100,7 @@ p {
 @media (min-width: 1000px)  {
 body {margin:20px;}
 h1 {text-align:left; margin-left:10px;}
-.nav a{font-size:16px; padding:6px 40px;}
+.nav a{font-size:20px; padding:6px 40px;}
 .gallery {width:1000px; padding:10px;}
 .gallery img {width:23%;}
 }
@@ -104,15 +108,15 @@ h1 {text-align:left; margin-left:10px;}
 @media (min-width: 600px) and (max-width: 999px) {
 body {margin:6px;}
 h1 {text-align: center; font-size:40px;}
-.nav a, footer-nav a{font-size:14px; padding: 3px 12px;}
+.nav a, footer-nav a{font-size:20px; padding: 3px 12px;}
 .gallery {width:600px; padding:20px;}
 .gallery img {width:45%;}
 }
 
 @media (max-width: 599px) {
 body {margin:2px;}
-h1 {text-align: center; font-size:24px;}
-.nav a, footer-nav a{font-size:10px;  padding: 3px 6px;}
+h1 {text-align: center; font-size:40px;}
+.nav a, footer-nav a{font-size:18px;  padding: 3px 6px;}
 .gallery img {width:100%;}
 }
 
