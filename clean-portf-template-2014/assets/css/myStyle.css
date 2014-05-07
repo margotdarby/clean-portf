@@ -113,8 +113,9 @@ h1 {text-align: center; font-size:40px;}
 .gallery img {width:45%;}
 }
 
-@media (max-width: 599px) {
+@media (min-width: 200px) and (max-width: 599px) {
 body {margin:2px;}
+p {font-size:16px; }
 h1 {text-align: center; font-size:40px;}
 .nav a, footer-nav a{font-size:18px;  padding: 3px 6px;}
 .gallery img {width:100%;}
