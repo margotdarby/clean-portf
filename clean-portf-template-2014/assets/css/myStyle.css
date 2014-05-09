@@ -101,7 +101,7 @@ p {
 body {margin:20px;}
 h1 {text-align:left; margin-left:10px;}
 .nav a{font-size:20px; padding:6px 40px;}
-.gallery {width:1000px; padding:10px;}
+.gallery {width:1000px; padding:8px;}
 .gallery img {width:23%;}
 }
 
@@ -109,7 +109,7 @@ h1 {text-align:left; margin-left:10px;}
 body {margin:6px;}
 h1 {text-align: center; font-size:40px;}
 .nav a, footer-nav a{font-size:20px; padding: 3px 12px;}
-.gallery {width:600px; padding:20px;}
+.gallery {width:600px; padding:16px;}
 .gallery img {width:45%;}
 }
 
@@ -118,7 +118,7 @@ body {margin:2px;}
 p {font-size:16px; }
 h1 {text-align: center; font-size:40px;}
 .nav a, footer-nav a{font-size:18px;  padding: 3px 6px;}
-.gallery img {width:100%;}
+.gallery img {width:300px;}
 }
 
 
